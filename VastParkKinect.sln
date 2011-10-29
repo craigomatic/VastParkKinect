@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.OpenNI", "src\Plugin.OpenNI\Plugin.OpenNI.csproj", "{684CCF8A-397D-4FFE-9F7C-E2C23BFACE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.OpenNI.Test", "src\Plugin.OpenNI.Test\Plugin.OpenNI.Test.csproj", "{7BA7A2B7-F653-4FBE-81DE-D36478B708A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{684CCF8A-397D-4FFE-9F7C-E2C23BFACE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{684CCF8A-397D-4FFE-9F7C-E2C23BFACE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{684CCF8A-397D-4FFE-9F7C-E2C23BFACE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{684CCF8A-397D-4FFE-9F7C-E2C23BFACE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA7A2B7-F653-4FBE-81DE-D36478B708A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA7A2B7-F653-4FBE-81DE-D36478B708A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA7A2B7-F653-4FBE-81DE-D36478B708A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA7A2B7-F653-4FBE-81DE-D36478B708A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
