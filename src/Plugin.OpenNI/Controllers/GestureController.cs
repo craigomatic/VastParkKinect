@@ -108,7 +108,14 @@ namespace Plugin.OpenNI.Controllers
             {
                 if (!_EventHandlers.ContainsKey(gesture))
                 {
+                    //test if this gesture is valid
+                    if (!_GestureGenerator.IsGestureAvailable(gesture))
+                    {
+                        throw new ArgumentException(string.Format("The specified gesture {0} is not valid", gesture), "gesture");
+                    }
+
                     _EventHandlers.Add(gesture, new List<string>());
+                    _GestureGenerator.AddGesture(gesture);
                 }
 
                 if (_EventHandlers[gesture].Contains(handler))
@@ -130,6 +137,7 @@ namespace Plugin.OpenNI.Controllers
                 }
 
                 _EventHandlers[gesture].Remove(handler);
+                _GestureGenerator.RemoveGesture(gesture);
             }
         }
 
